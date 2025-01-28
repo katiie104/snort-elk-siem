@@ -8,7 +8,10 @@ Hệ thống có thể:
 - Dễ dàng mở rộng và quản lý.
 
 ## ⚙️ Kiến Trúc Hệ Thống
-![Architecture Diagram](docs/architecture_diagram.png)
+
+Snort ---> Logstash ---> Elasticsearch ---> Kibana
+
+
 
 ## 🛠️ Công Nghệ Sử Dụng
 - **Snort 3:** Công cụ phát hiện xâm nhập (IDS) mạnh mẽ.
@@ -17,28 +20,7 @@ Hệ thống có thể:
   - **Logstash:** Thu thập và chuyển đổi log.
   - **Kibana:** Hiển thị log và dashboard.
 
-## 🚀 Hướng Dẫn Cài Đặt
-1. **Clone repository:**
-    ```bash
-    git clone https://github.com/username/snort-elk-siem.git
-    cd snort-elk-siem
-    ```
-2. **Cài đặt Snort và ELK:**
-    - Chạy script tự động:
-        ```bash
-        bash scripts/install_snort.sh
-        bash scripts/setup_elk.sh
-        ```
-    - Hoặc làm theo hướng dẫn chi tiết tại [docs/setup_guide.md](docs/setup_guide.md).
 
-3. **Chạy hệ thống:**
-    ```bash
-    docker-compose up -d
-    ```
-
-4. **Truy cập Kibana:**
-    - URL: [http://localhost:5601](http://localhost:5601)
-    - Dashboard: **SIEM Dashboard**
 
 ## 📝 Ví Dụ Cảnh Báo
 - **Snort Alert:**  
@@ -50,11 +32,9 @@ Hệ thống có thể:
 ## 📚 Tài Liệu Tham Khảo
 - [Snort Official Documentation](https://www.snort.org/)
 - [ELK Stack Documentation](https://www.elastic.co/guide/index.html)
+- . . .
 
-## 📄 Giấy Phép
-Dự án này được phân phối theo giấy phép [MIT](LICENSE).
 
 ## 💡 Liên Hệ
-Nếu bạn có câu hỏi, đừng ngần ngại liên hệ:  
-- **Email:** your_email@example.com  
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+Nếu bạn có câu hỏi, đừng ngần ngại liên hệ:    
+- **Instagram:** key_ht14
