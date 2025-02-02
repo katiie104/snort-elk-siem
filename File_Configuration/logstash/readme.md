@@ -28,8 +28,4 @@ The main configuration directory is `/etc/logstash/conf.d`, where you can define
 ├── logstash.yml
 ├── pipelines.yml
 └── startup.options
-<<<<<<< HEAD
 ```
-=======
-
->>>>>>> 3ec39b3dba069463a38d3a38947d4e227dad0294
