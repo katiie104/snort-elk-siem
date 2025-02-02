@@ -18,6 +18,7 @@ The main configuration directory is `/etc/logstash/conf.d`, where you can define
 
 ## Logstash Configuration Directory Structure
 
+```bash
 /etc/logstash
 ├── conf.d
 │   └── snort.conf
@@ -27,3 +28,4 @@ The main configuration directory is `/etc/logstash/conf.d`, where you can define
 ├── logstash.yml
 ├── pipelines.yml
 └── startup.options
+```
