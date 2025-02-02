@@ -8,8 +8,11 @@ Kibana allows you to shape your data and navigate the Elastic Stack. With Kibana
 - Manage, monitor, and secure the Elastic Stack. Manage your data, 
 monitor the health of your Elastic Stack cluster, and control which users have access to which features.
 
-- localhost:5601 -> access home 
+- localhost:5601 -> access home
+  
+<br>
 
+![9c290959-ea6b-482e-ab4f-3b609eea9adf](https://github.com/user-attachments/assets/1ad7b061-ac71-4f4f-a0ea-da0aceb3d061)
 
 
 
