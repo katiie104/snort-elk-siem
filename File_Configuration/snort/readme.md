@@ -13,7 +13,7 @@ The `/etc/snort/rules` directory contains the rules that Snort uses to detect an
 
 ## Snort Configuration Directory Structure
 
-
+```bash
 /etc/snort
 ├── attribute_table.dtd
 ├── classification.config
