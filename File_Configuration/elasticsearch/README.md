@@ -1,4 +1,4 @@
-# Elasticsearch CConfiguration 
+# Elasticsearch Configuration 
 - Elasticsearch is widely used in search applications, log analysis, and system monitoring. The platform can handle large amounts of data and offers excellent scalability, allowing users to store, search, and analyze data efficiently in real time.
 
 - Additionally, Elasticsearch includes features such as multi-field search, automatic keyword detection, natural language processing, context recognition, and complex querying capabilities. These features make it a powerful tool for search and data analysis applications.
