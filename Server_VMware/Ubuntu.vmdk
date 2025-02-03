@@ -1,0 +1,27 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=32dc9e21
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Ubuntu-s001.vmdk"
+RW 8323072 SPARSE "Ubuntu-s002.vmdk"
+RW 8323072 SPARSE "Ubuntu-s003.vmdk"
+RW 8323072 SPARSE "Ubuntu-s004.vmdk"
+RW 8323072 SPARSE "Ubuntu-s005.vmdk"
+RW 327680 SPARSE "Ubuntu-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "64151c9dfca0ab310ac094af32dc9e21"
+ddb.toolsInstallType = "4"
+ddb.toolsVersion = "12421"
+ddb.uuid = "60 00 C2 97 48 2a a3 72-a3 3f 3b d4 da 67 96 45"
+ddb.virtualHWVersion = "20"
