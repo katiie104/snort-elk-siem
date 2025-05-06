@@ -1,11 +1,13 @@
-# Elasticsearch Configuration 
-- Elasticsearch is widely used in search applications, log analysis, and system monitoring. The platform can handle large amounts of data and offers excellent scalability, allowing users to store, search, and analyze data efficiently in real time.
+# Elasticsearch 
+  Elasticsearch là một công cụ tìm kiếm và phân tích phân tán, mã nguồn mở, dựa trên REST (phong cách kiến trúc hệ thống phân tán), có khả năng mở rộng và hoạt động như một cơ sở dữ liệu vector, đáp ứng được ngày càng nhiều trường hợp sử dụng. Là trung tâm của Elastic Stack, nó lưu trữ dữ liệu tập trung, cho phép tìm kiếm siêu nhanh, điều chỉnh độ liên quan chính xác và cung cấp khảnăng phân tích mạnh mẽ, dễ dàng mở rộng
 
-- Additionally, Elasticsearch includes features such as multi-field search, automatic keyword detection, natural language processing, context recognition, and complex querying capabilities. These features make it a powerful tool for search and data analysis applications.
+# Các thành phần trong Elasticsearch :
+  o Chỉ mục: Là khái niệm logic chứa tập hợp các tài liệu có đặc điểm tương tự nhau, được định danh bằng một tên (viết thường) và dùng cho các thao tác như lập chỉ mục, tìm kiếm, cập nhật và xóa tài liệu. 
+  o Loại: Phân vùng logic trong chỉ mục, giúp lưu trữ các loại tài liệu khác nhau trong cùng một chỉ mục (ví dụ: trong một chỉ mục Twitter, có thể có loại dành cho người dùng và loại dành cho bài đăng). 
+  o Tài liệu: Đơn vị thông tin cơ bản được lưu trữ dưới dạng JSON, tương tự như một dòng trong bảng của cơ sở dữ liệu quan hệ, chứa các cặp key và value.
 
-
-## Elasticsearch Configuration Directory Structure
-- When downloaded, the publisher has pre-configured default settings to be compatible with most systems. However, you can modify the configurations to suit your environment in 
+# Cấu trúc thư mục cấu hình
+- Khi tải xuống, nhà xuất bản đã cấu hình sẵn các thiết lập mặc định để tương thích với hầu hết các hệ thống. Tuy nhiên, bạn có thể sửa đổi các cấu hình để phù hợp với môi trường của mình trong : 
 ```bash
 /etc/elasticsearch/elasticsearch.yml.
 ```
