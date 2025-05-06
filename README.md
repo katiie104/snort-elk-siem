@@ -57,8 +57,10 @@ Snort ---> Logstash ---> Elasticsearch ---> Kibana
 
 - **Kibana Dashboard:**
  ![Ảnh chụp màn hình 2025-01-28 223421](https://github.com/user-attachments/assets/cb67e6ca-4fb5-47e2-9618-ea80984fb7c2)
+ ![Ảnh chụp màn hình 2025-05-06 232005](https://github.com/user-attachments/assets/777ecca2-a557-41bc-9539-e3ea60a507d0)
 
-<br>
+
+
   
 ## 📚 Tài Liệu Tham Khảo
 - [Snort Official Documentation](https://www.snort.org/)
